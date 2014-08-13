@@ -19,7 +19,7 @@ App.Controller.UserController = Backbone.View.extend({
         },
         save:function() { 
             var model = $('#userForm').serializeObject();
-            alert('El usuario '+ model.firstName + ' ' + model.lastName + 'nacio el dia ' + model.fecha);
+            alert('El usuario '+ model.firstName + ' ' + model.lastName + ' nacio el dia ' + model.fecha);
         },
         cancel: function(){
             alert('Cancel');
